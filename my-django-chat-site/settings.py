@@ -70,7 +70,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'my-django-chat-site.wsgi.application'
-
+ASGI_APPLICATION = 'my-django-chat-site.asgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
@@ -123,4 +123,4 @@ USE_TZ = False
 
 STATIC_URL = '/static/'
 
-ASGI_APPLICATION = 'my-django-chat-site.asgi.application'
+
